@@ -154,6 +154,18 @@
           <version>1.4.34</version>
           <scope>test</scope>
         </dependency>
+        <dependency>
+          <groupId>com.github.jsimone</groupId>
+          <artifactId>webapp-runner</artifactId>
+          <version>7.0.22.3</version>
+          <scope>provided</scope>
+        </dependency>
+        <dependency>
+          <groupId>ch.qos.logback</groupId>
+          <artifactId>logback-core</artifactId>
+          <version>1.1.0</version>
+          <scope>compile</scope>
+        </dependency>
       </dependencies>
     </profile>
   </profiles>
